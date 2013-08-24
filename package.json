@@ -1,7 +1,7 @@
 {
-  "name": "GruntGit",
+  "name": "grunt-git",
   "description": "Git tools for grunt",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
     {
