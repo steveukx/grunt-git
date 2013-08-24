@@ -28,10 +28,10 @@ module.exports = function(grunt) {
 
       listAllFiles(this.files);
 
-      new Git()
+      new Git(process.cwd())
           .add(allFiles)
           .commit(options.message, allFiles, function(err, result) {
-             grunt.log.write(command);
+             grunt.log.write(err ? err : result);
              done(!err);
           });
    });
