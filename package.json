@@ -1,0 +1,29 @@
+{
+  "name": "GruntGit",
+  "description": "Git tools for grunt",
+  "version": "0.0.0",
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "keywords": [
+    "gruntplugin",
+    "git"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steveukx/grunt-git.git"
+  },
+  "main": "GruntFile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "simple-git": "*"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
